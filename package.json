@@ -20,7 +20,7 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "deploy": "aws s3 sync build/ s3://moba94 --delete",
+    "deploy": "aws s3 sync public/ s3://moba94 --delete",
     "postdeploy": "aws cloudfront create-invalidation --distribution-id E2P1RUSXSMOEJT --paths '/*'",
     "develop": "gatsby develop",
     "format": "prettier --write '**/*.js'",
