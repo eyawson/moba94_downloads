@@ -29,7 +29,7 @@ const Header = props => (
               props.onOpenArticle('intro')
             }}
           >
-            Intro
+            File A
           </button>
         </li>
         <li>
@@ -38,7 +38,7 @@ const Header = props => (
               props.onOpenArticle('work')
             }}
           >
-            Work
+            File B
           </button>
         </li>
         <li>
@@ -47,7 +47,7 @@ const Header = props => (
               props.onOpenArticle('about')
             }}
           >
-            About
+            FIle C
           </button>
         </li>
         <li>
