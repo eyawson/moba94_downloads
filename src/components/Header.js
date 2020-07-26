@@ -13,7 +13,7 @@ const Header = props => (
       <div className="inner">
         <h1>Documents</h1>
         <p>
-          Here are all of our documents
+          Here are all of our governing documents
           <br />
           <span> for your perusal.</span>
           <br />
