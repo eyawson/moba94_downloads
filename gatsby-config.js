@@ -13,7 +13,7 @@ module.exports = {
         short_name: 'starter',
         start_url: '/',
         background_color: '#000000',
-        theme_color: '#DC143C',
+        theme_color: '#990000',
         display: 'minimal-ui',
         icon: 'src/images/moba logo.png', // This path is relative to the root of the site.
       },
