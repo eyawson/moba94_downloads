@@ -28,18 +28,21 @@ class Main extends React.Component {
             }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">File 1</h2>
+          <h2 className="major">Dues</h2>
           <span className="image main">
-            <img src={pic01} alt="" />
+            <img src={pic01} alt="The main gate of Mfantsipim" />
           </span>
           <p>
-            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
-            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
+            Moba'94 Association is an independent orgnization, fully supported by dues
+            and donations. Your dues allows us to coordinate and implement all of the programs
+            for our The School and alumni.
           </p>
           <p>
-            To download, click <a href="#work #" download>here</a>.
+            In this document, you will find a list of all members of the 1994 year
+            group. It shows who have paid and who are yet to pay their dues.
+          </p>
+          <p>
+            To download, click <a href="/file/moba94_dues.xlsx" download>here</a>.
           </p>
           {close}
         </article>
@@ -51,18 +54,16 @@ class Main extends React.Component {
             }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">File 2</h2>
+          <h2 className="major">Constitution</h2>
           <span className="image main">
-            <img src={pic02} alt="" />
+            <img src={pic02} alt="That 20 year anniversary cake" />
           </span>
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
+            This constitution document is currently being worked on and is not
+            available for download at the moment. Sorry for any inconvenince.
           </p>
           <p>
-            To download, click <a href="#" download>here</a>.
+            To download, click <a href="#">here</a>.
           </p>
           {close}
         </article>
@@ -74,21 +75,16 @@ class Main extends React.Component {
             }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">File 3</h2>
+          <h2 className="major">Welfare</h2>
           <span className="image main">
-            <img src={pic03} alt="" />
+            <img src={pic03} alt="Donation to Ankaful Psychiatric Home" />
           </span>
           <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
+            This welfare document is currently being worked on and is not
+            available for download at the moment. Sorry for any inconvenince.
           </p>
           <p>
-            To download, click <a href="#" download>here</a>.
+            To download, click <a href="#">here</a>.
           </p>
           {close}
         </article>
@@ -126,14 +122,17 @@ class Main extends React.Component {
           <ul className="icons">
             <li>
               <a
-                href="#"
+                href="https://twitter.com/KwabotweOnline"
+                target="_blank"
                 className="icon fa-twitter"
               >
                 <span className="label">Twitter</span>
               </a>
             </li>
             <li>
-              <a href="#" className="icon fa-facebook">
+              <a href="https://www.facebook.com/groups/413054355423117"
+                target="_blank"
+                className="icon fa-facebook">
                 <span className="label">Facebook</span>
               </a>
             </li>
@@ -144,7 +143,8 @@ class Main extends React.Component {
             </li>
             <li>
               <a
-                href="#"
+                href="https://github.com/eyawson/moba94_downloads/"
+                target="_blank"
                 className="icon fa-github"
               >
                 <span className="label">GitHub</span>
