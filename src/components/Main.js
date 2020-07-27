@@ -97,7 +97,7 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
-          <form method="post" action="mailto:zigmagh@gmail.com ">
+          <form method="post" action="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%7A%69%67%6D%61%67%68%40%67%6D%61%69%6C%2E%63%6F%6D" target="_blank">
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
